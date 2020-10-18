@@ -1,3 +1,6 @@
+//Refer Link:
+// https://medium.com/@jeffrey.allen.lewis/javascript-algorithms-explained-binary-search-25064b896470
+
 let numbers = [1, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59];
 
 function binarySearch(numbers, target) {
