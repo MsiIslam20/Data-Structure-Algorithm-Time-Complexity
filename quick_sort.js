@@ -2,12 +2,9 @@ function quickSort(arr, left, right) {
     let len = arr.length,
         pivot,
         partitionIndex;
-
-
     if (left < right) {
         pivot = right;
         partitionIndex = partition(arr, pivot, left, right);
-
         //sort left and right
         quickSort(arr, left, partitionIndex - 1);
         quickSort(arr, partitionIndex + 1, right);
@@ -27,6 +24,7 @@ function partition(arr, pivot, left, right) {
     swap(arr, right, partitionIndex);
     return partitionIndex;
 }
+
 function swap(arr, i, j) {
     let temp = arr[i];
     arr[i] = arr[j];
