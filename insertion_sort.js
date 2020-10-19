@@ -7,7 +7,6 @@ function insertionSort(array) {
             array[j] = array[j - 1];
             j--;
         }
-
         array[j] = item;
     }
     return array;
